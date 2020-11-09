@@ -1,19 +1,17 @@
 package be.technifutur.java2020.labo1;
 
+import java.text.ParseException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) throws ParseException {
         Scanner scan = new Scanner(System.in);
         Controleur ctrl = new Controleur();
         String choix;
 
 
-        do {
+
             ctrl.Ctrl();
-            System.out.println("quitter ?");
-            choix = scan.nextLine();
-        }while (choix != "q");
 
 
 

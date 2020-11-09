@@ -20,18 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06afd3f3-4b08-49de-9249-a9ed1602456c" name="Default Changelist" comment="Premier test">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestionStage/be/technifutur/java2020/labo1/Controleur.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestionStage/be/technifutur/java2020/labo1/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestionStage/be/technifutur/java2020/labo1/ListeStage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestionStage/be/technifutur/java2020/labo1/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestionStage/be/technifutur/java2020/labo1/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestionStage/be/technifutur/java2020/labo1/Organisateur.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestionStage/be/technifutur/java2020/labo1/Stage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestionStage/be/technifutur/java2020/labo1/StageCtrl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestionStage/be/technifutur/java2020/labo1/StageVue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GestionStage/be/technifutur/java2020/labo1/Vue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Controleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Controleur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/ListeStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/ListeStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Stage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Stage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/StageCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/StageCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/StageVue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/StageVue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,26 +166,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="210" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604669381081" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604663983821">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604913242815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604663983821" />
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1604674230635">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604913242815" />
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1604922272567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604674230635" />
-    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1604674230635">
+    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604922272567" />
+    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1604922272567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604674230635" />
-    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1604674230635">
+    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604922272567" />
+    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1604922272567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604674230635" />
-    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1604674230635">
+    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604922272567" />
+    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1604922272567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604674230635" />
+    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604922272567" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604577046641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -223,22 +218,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="247" y="421" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604478460459" />
-    <state x="342" y="140" key="new project wizard" timestamp="1604481677214">
+    <state x="342" y="140" key="new project wizard" timestamp="1604920266039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604481677214" />
-    <state x="180" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1604581094642">
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604920266039" />
+    <state x="180" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1604912459847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="180" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604581094642" />
+    <state x="180" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604912459847" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1604586966026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604586966026" />
-    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1604564839799">
+    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1604917064280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604564839799" />
+    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604917064280" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
