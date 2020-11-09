@@ -15,57 +15,44 @@ public class StageCtrl {
 
     public static void addStage() throws ParseException {
         Scanner scan = new Scanner(System.in);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd MM yyyy");
+        dateFormat.setLenient(false);
+        String dateString;
 
         System.out.println("--------------------------");
         System.out.println("- Entrer le nom du stage -");
         System.out.println("--------------------------");
         String name = scan.nextLine();
         Stage.setName(name);
+
         System.out.println("-----------------------------------------------------------");
         System.out.println("- Entrer la date et l'heure de début du stage (jj mm aaaa)-");
         System.out.println("-----------------------------------------------------------");
-        String dateString = scan.nextLine();
+        dateString = scan.nextLine();
+        Date date = null;
+        try {
+            date = dateFormat.parse(dateString);
+            Stage.setDateDebut(date);
+        }
+        catch (Exception e) {
+            System.err.println("Format de date invalide. Usage : jj mm aaaa");
+            StageCtrl.addStage();
+        }
 
-        DateFormat formatter = new SimpleDateFormat("dd MM yyyy");
-        Date date = formatter.parse(dateString);
 
-
-        Stage.setDateDebut(date);
-
-
-        ListeStage.addStage();
+        System.out.println("------------------------------------------------------------");
+        System.out.println("- Entrer la date et l'heure de la fin du stage (jj mm aaaa)-");
+        System.out.println("------------------------------------------------------------");
+        dateString = scan.nextLine();
+        try {
+            date = dateFormat.parse(dateString);
+            Stage.setDatefin(date);
+        }
+        catch (Exception e) {
+            System.err.println("Format de date invalide. Usage : jj mm aaaa");
+            StageCtrl.addStage();
+        }
     }
-
-
-
-    /*public static void main(String[] args) {
-        Stage stage = new Stage();
-        StageVue vue = new StageVue();
-        ListeStage liste = new ListeStage();
-
-        System.out.println("Entrez le nom de votre nouvelle formation :");
-        Scanner entre = new Scanner(System.in);
-
-        String name = entre.nextLine();
-
-
-
-
-        stage.setName(name);
-        stage.getName();
-        stage.run();
-        stage.getName();
-
-        entre = new Scanner(System.in);
-
-        name = entre.nextLine();
-
-        stage.setName(name);
-        stage.getName();
-        stage.run();
-        stage.getName();
-    }*/
-
 
 
 }

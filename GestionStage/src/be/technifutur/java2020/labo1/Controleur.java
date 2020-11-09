@@ -9,7 +9,6 @@ public class Controleur {
     StageVue liste = new StageVue();
 
 
-
     public void Ctrl() throws ParseException {
         int i;
         do {
@@ -24,13 +23,18 @@ public class Controleur {
                     liste.afficheStage();
                     i=0;
                     break;
+                case 3:
+                    break;
             }
-        }while (i<1 || i > 2);
+        }while (i<1 || i > 3);
     }
+
 
     private static int getChoice() {
         Scanner scan = new Scanner(System.in);
         int choix = Integer.parseInt(scan.nextLine());
         return choix;
     }
+
+
 }

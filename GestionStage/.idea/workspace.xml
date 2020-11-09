@@ -19,14 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06afd3f3-4b08-49de-9249-a9ed1602456c" name="Default Changelist" comment="Premier test">
+    <list default="true" id="06afd3f3-4b08-49de-9249-a9ed1602456c" name="Default Changelist" comment="creation affichage date debut et nom">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Controleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Controleur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/ListeStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/ListeStage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/ModeleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/ModeleMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Stage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Stage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/StageCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/StageCtrl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/StageVue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/StageVue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Vue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/technifutur/java2020/labo1/Vue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604676252642</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="creation affichage date debut et nom">
+      <created>1604923283084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604923283084</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,7 +160,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main" />
     <MESSAGE value="Premier test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Premier test" />
+    <MESSAGE value="creation affichage date debut et nom" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation affichage date debut et nom" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604479831241">
@@ -170,22 +180,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604913242815" />
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1604922272567">
+    <state width="1877" height="441" key="GridCell.Tab.0.bottom" timestamp="1604932298072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604922272567" />
-    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1604922272567">
+    <state width="1877" height="441" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604932298072" />
+    <state width="1877" height="441" key="GridCell.Tab.0.center" timestamp="1604932298071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604922272567" />
-    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1604922272567">
+    <state width="1877" height="441" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604932298071" />
+    <state width="1877" height="441" key="GridCell.Tab.0.left" timestamp="1604932298071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604922272567" />
-    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1604922272567">
+    <state width="1877" height="441" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604932298071" />
+    <state width="1877" height="441" key="GridCell.Tab.0.right" timestamp="1604932298072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604922272567" />
+    <state width="1877" height="441" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604932298072" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604577046641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -206,10 +216,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604585452587" />
-    <state x="72" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604676383203">
+    <state x="72" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604923302715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="72" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604676383203" />
+    <state x="72" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604923302715" />
     <state x="505" y="256" width="909" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604580512458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -222,18 +232,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604920266039" />
-    <state x="180" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1604912459847">
+    <state x="180" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1604931395991">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="180" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604912459847" />
+    <state x="180" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604931395991" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1604586966026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604586966026" />
-    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1604917064280">
+    <state x="912" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1604932532601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="143" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604917064280" />
+    <state x="912" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604932532601" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

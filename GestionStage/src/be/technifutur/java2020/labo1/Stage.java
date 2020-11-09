@@ -1,25 +1,25 @@
 package be.technifutur.java2020.labo1;
 
+import java.text.ParseException;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Stage {
     private static String name;
     private static Date dateDebut;
-    private LocalDateTime dateFin;
+    private static Date dateFin;
+
 
     public static List<String> addStage(){
         List<String> stage = new ArrayList<String>();
-        /*
-        List<String> stage = Collections.singletonList(name);
-        */
         stage.add(name);
         stage.add(dateDebut.toString());
-
-
+        stage.add(dateFin.toString());
         return stage;
     }
 
@@ -32,6 +32,26 @@ public class Stage {
     }
 
     public static void setDateDebut(Date date1){
+
+
         dateDebut = date1;
+    }
+
+    public static void setDatefin(Date date2) throws ParseException {
+        dateFin = date2;
+        if (dateDebut.after(dateFin)){
+            System.out.println("Date de début du stage supérieur à la date de fin");
+            dateDebut = null;
+            name = null;
+            dateFin = null;
+            StageCtrl.addStage();
+
+        }else {
+            ListeStage.addStage();
+        }
+    }
+
+    public static void isValid(){
+
     }
 }

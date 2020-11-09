@@ -11,6 +11,7 @@ public class ModeleMenu {
         HashMap<Integer, String> mapMenu = this.mapMenu;
         mapMenu.put(1,"Ajouter un stage");
         mapMenu.put(2,"Afficher les stages");
+        mapMenu.put(3,"Quitter");
         this.mapMenu =  mapMenu;
     }
 
