@@ -9,6 +9,7 @@ public class Controleur {
     StageVue liste = new StageVue();
 
 
+
     public void Ctrl() throws ParseException {
         int i;
         do {
@@ -21,6 +22,7 @@ public class Controleur {
                     break;
                 case 2:
                     liste.afficheStage();
+                    StageCtrl.searchStage();
                     i=0;
                     break;
                 case 3:

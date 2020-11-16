@@ -16,6 +16,10 @@ public class ModeleMenu {
     }
 
 
+
+
+
+
     public void afficheMenu(){
         for (Integer i : mapMenu.keySet()) {
             System.out.println(i + " : " + mapMenu.get(i));

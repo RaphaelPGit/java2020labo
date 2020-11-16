@@ -1,11 +1,11 @@
 package be.technifutur.java2020.labo1;
 
-import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
 import java.util.Scanner;
-import be.technifutur.java2020.labo1.ModeleMenu;
 
 public class StageCtrl {
     StageVue vue = new StageVue();
@@ -52,6 +52,25 @@ public class StageCtrl {
             System.err.println("Format de date invalide. Usage : jj mm aaaa");
             StageCtrl.addStage();
         }
+    }
+
+
+    public static void searchStage(){
+        ListeStage liste = new ListeStage();
+        HashMap<String, List<String>> listeStage = liste.getListe();
+        Scanner scan = new Scanner(System.in);
+        System.out.println("----------------------------");
+        System.out.println("- Entrer le nom d'un stage -");
+        System.out.println("----------------------------");
+        String name = scan.nextLine();
+        if(listeStage.containsKey(name)){
+            System.out.println(listeStage.get(name));
+        }else {
+            System.out.println("Stage introuvable");
+        }
+
+
+
     }
 
 

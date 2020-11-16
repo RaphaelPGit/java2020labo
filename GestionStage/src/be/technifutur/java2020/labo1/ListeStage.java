@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ListeStage {
-    private static HashMap<Integer, List<String>> listeStage = new HashMap<Integer, List<String>>();
+    private static HashMap<String, List<String>> listeStage = new HashMap<String, List<String>>();
     private static int nbStage =1;
     private Scanner scan;
 
@@ -14,12 +14,12 @@ public class ListeStage {
     }
 
     public static void addStage(){
-        listeStage.put(nbStage,Stage.addStage());
+        listeStage.put(Stage.getName(),Stage.addStage());
         nbStage ++;
     }
 
-    public HashMap<Integer, List<String>> getListe(){
-       HashMap<Integer, List<String>> listeStage = this.listeStage;
+    public HashMap<String, List<String>> getListe(){
+       HashMap<String, List<String>> listeStage = this.listeStage;
        return listeStage;
     }
 

@@ -17,7 +17,6 @@ public class Stage {
 
     public static List<String> addStage(){
         List<String> stage = new ArrayList<String>();
-        stage.add(name);
         stage.add(dateDebut.toString());
         stage.add(dateFin.toString());
         return stage;
