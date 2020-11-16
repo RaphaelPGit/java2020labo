@@ -4,7 +4,7 @@ import java.text.ParseException;
 import java.util.Scanner;
 
 public class Controleur {
-    ModeleMenu modele = new ModeleMenu();
+
     Vue vue = new Vue();
     StageVue liste = new StageVue();
 
@@ -22,15 +22,19 @@ public class Controleur {
                     break;
                 case 2:
                     liste.afficheStage();
-                    StageCtrl.searchStage();
                     i=0;
                     break;
                 case 3:
+                    StageCtrl.searchStage();
+                    vue.afficheMenuA();
+                    StageCtrl.modif(Controleur.getChoice2());
+                    i=0;
+                    break;
+                case 4:
                     break;
             }
-        }while (i<1 || i > 3);
+        }while (i<1 || i > 4);
     }
-
 
     private static int getChoice() {
         Scanner scan = new Scanner(System.in);
@@ -38,5 +42,14 @@ public class Controleur {
         return choix;
     }
 
+    private static int getChoice2() {
+        Scanner scan = new Scanner(System.in);
+        int choix = 1;
+        do {
+            choix = Integer.parseInt(scan.nextLine());
+        }while (choix <1 || choix > 5);
+
+        return choix;
+    }
 
 }

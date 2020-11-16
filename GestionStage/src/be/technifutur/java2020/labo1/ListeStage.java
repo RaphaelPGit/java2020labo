@@ -23,6 +23,10 @@ public class ListeStage {
        return listeStage;
     }
 
+    public static void modifName(String name){
+        listeStage.replace(name,listeStage.remove( "oldKey" ));
+    }
+
 
 
 

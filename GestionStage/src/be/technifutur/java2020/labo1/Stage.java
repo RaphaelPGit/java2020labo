@@ -2,10 +2,7 @@ package be.technifutur.java2020.labo1;
 
 import java.text.ParseException;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -52,5 +49,11 @@ public class Stage {
 
     public static void isValid(){
 
+    }
+
+    public static void modifName() {
+        Scanner scan = new Scanner(System.in);
+        String name = scan.nextLine();
+        ListeStage.modifName(name);
     }
 }
